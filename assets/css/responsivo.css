@@ -14,11 +14,9 @@ body {
 }
 
 .layout {
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    flex-direction: column;
 }
 
 .profile-section {
@@ -32,7 +30,6 @@ body {
 }
 
 .profile-details {
-    display: flex;
     align-items: center;
     gap: 25px;
 }
@@ -120,5 +117,13 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-   }
+    }
+   .layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    .profile-section{
+        width: 375px;
+    }
 }

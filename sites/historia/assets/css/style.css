@@ -1,0 +1,76 @@
+.linha{
+    background-color: aliceblue;
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    margin-right: 850px;
+    margin-bottom: 50px;
+}
+
+
+
+.linha1{
+    background-color: aliceblue;
+    width: 25px;
+    height: 1px;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    margin-bottom: 50px;
+}
+
+/* Estilos para a header */
+header {
+    max-height: 100px;
+    background:#C11616; /* Fundo vermelho */
+    color: white; /* Texto em branco */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    margin-left: 100px;
+}
+
+header .pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+header .pesquisa input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(241, 238, 238) ;
+    outline: none;
+    background: #C11616;
+}
+
+
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin-top: 30px;
+}

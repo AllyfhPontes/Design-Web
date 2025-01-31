@@ -124,6 +124,7 @@ main {
 }
 
 .noticia .continuar-ler {
+    color: #8D9AA6;
     text-decoration: none;
     background: linear-gradient(90deg, #EFF0F2 0%, rgba(249, 250, 252, 0.00) 50.31%);
     padding: 10px 20px;
@@ -146,6 +147,129 @@ main {
     font-size: 40px;
 font-style: normal;
 font-weight: 800;
+}
+
+p{
+    color: black;
+}
+
+.ultimos-posts h3 {
+    color: #8D9AA6; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+hr{
+    color: #8D9AA6;
+}
+
+.linhared{
+    width: 81px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 5px;
+background: linear-gradient(90deg, #F00 0%, rgba(255, 0, 0, 0.46) 60.12%);
+margin-top: 100px;
+}
+
+.ver-todas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: #707C8C;
+}
+
+h2{
+    color: #8D9AA6;
+}
+
+.links a{
+    border: 1px solid #e05f5f;
+    padding: 6px 16px;
+    text-decoration: none;
+    color: #e05f5f;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.linhaf{
+    width: 60px;
+height: 1px;
+flex-shrink: 0;
+background: var(--ui-color-danger-dark, #C11616);
+}
+
+
+/* Estilos gerais do footer */
+footer {
+    background-color: #F9FAFC;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-line {
+    width: 50px;
+    height: 2px;
+    margin-bottom: 10px;
+    background: var(--ui-color-danger-dark, #C11616);
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bar {
+    width: 100%;
+    height: 1px;
+    background-color: #EFF2F7;
+    position: absolute;
+
 }
 
 @media (max-width: 768px) {
@@ -175,7 +299,7 @@ font-weight: 800;
     }
 }
 
-
+/*---------------------------------------------------------/*
 
 
 

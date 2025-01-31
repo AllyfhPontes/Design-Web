@@ -1,5 +1,4 @@
 
-/* Centralizar logo e linha-h3 */
 header .logo, .linha-h3-container {
     display: flex;
     align-items: center;
@@ -10,8 +9,8 @@ header .logo, .linha-h3-container {
 
 .linha-h3-container {
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    gap: 10px; /* Espaçamento entre os itens */
+    align-items: center; 
+    gap: 10px; 
 }
 
 .linha {
@@ -19,15 +18,15 @@ header .logo, .linha-h3-container {
     width: 50px;
     height: 1px;
     transform: rotate(90deg);
-    transform-origin: center; /* Centraliza o ponto de rotação */
-    margin: 0; /* Remove margens */
+    transform-origin: center; 
+    margin: 0; 
 }
 
 /* Refinar barra de pesquisa */
 header .pesquisa {
     display: flex;
     align-items: center;
-    margin-left: 700px; /* Ajuste para mover para a esquerda */
+    margin-left: 700px; 
     gap: 10px;
 }
 
@@ -39,13 +38,13 @@ header .pesquisa input {
     outline: none;
     background: #C11616;
     font-size: 14px;
-    width: 200px; /* Largura inicial */
-    transition: width 0.3s ease; /* Animação ao interagir */
+    width: 200px; 
+    transition: width 0.3s ease; 
 }
 
 header .pesquisa input:focus {
-    width: 250px; /* Expande no foco */
-    border-color: white; /* Destaque ao focar */
+    width: 250px; 
+    border-color: white; 
 }
 
 header .pesquisa img {
@@ -55,12 +54,12 @@ header .pesquisa img {
 
 /* Outras configurações */
 header {
-    max-height: 70px; /* Ajuste para que não fique muito comprimido */
-    padding: 10px 20px; /* Redução das margens */
-    background: #C11616; /* Fundo vermelho */
+    max-height: 70px; 
+    padding: 10px 20px; 
+    background: #C11616; 
     color: white;
     display: flex;
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center; 
     justify-content: space-between;
 }
 
@@ -202,6 +201,49 @@ flex-shrink: 0;
 background: var(--ui-color-danger-dark, #C11616);
 }
 
+/* Estilos gerais da galeria */
+.galeria{width: 100%;}
+.galeria h2{color: #EB5151;}
+.galeria .galeria-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+.galeria .galeria-fotos .fotos{
+    border: 1px solid red;
+    width: 50%;
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.galeria .galeria-fotos .fotos div{height: 310px;}
+.galeria .galeria-videos .videos{
+    border: 1px solid red;
+    width: 50%;
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.galeria .galeria-videos .videos div{height: 310px;}
+
+
+/* Estilos gerais da serie de posts */
+
+.blo{
+    width: 280px;
+    height: 260px;
+    border-radius: 5px;
+    border: 1px solid #eb5151;
+}
+
 
 /* Estilos gerais do footer */
 footer {
@@ -255,7 +297,6 @@ footer {
 .footer-links a {
     text-decoration: none;
     color: #333;
-    font-size: 14px;
 }
 
 .footer-bottom {

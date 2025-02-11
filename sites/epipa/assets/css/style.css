@@ -13,9 +13,34 @@ header {
     align-items: center;
 }
 
+.barra-amarela {
+    width: 100px; /* Largura da barra */
+    height: 4px;  /* Altura da barra */
+    background-color: #FFC82C; /* Cor da barra */
+    display: flex;
+}
+
+.barra-amarela2 {
+    width: 100px; /* Largura da barra */
+    height: 4px;  /* Altura da barra */
+    background-color: #FFC82C; /* Cor da barra */
+}
+
+#sobre p {
+    text-align: right; /* Alinha o texto à direita */
+}
+
+#sobre em {
+    font-style: italic;
+}
+
+
+
+
 .redes{
     display: flex;
-    gap: 10px;
+    gap: 10px; 
+
 }
 
 .logo{
@@ -58,13 +83,66 @@ color: yellow;
 }
 .section {
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     text-align: justify;
 }
 
+  .d-block{display: block;}
+  
+  .card{
+    border-radius: .25em;
+    display: block;
+    color: blue;
+    border: 1px solid;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .card figure{
+    margin: 0;
+  }
+  .card figure img{
+    max-width: 100%;
+    transform: scale(120%);  
+    margin-bottom: 0.75em;
+  }
+  .card figure figcaption{
+    padding: 1em;
+  }
+  
+  .card figure figcaption strong{
+    font-size: 1.5em;
+    margin-bottom: .25em;
+  }
+
 .section h1{
     align-content: flex-start;
+}
+
+.main2 h4{
+color: #004080;
+}
+
+.main2 h2{
+    color: #004080;
+}
+
+.main2 .conteudo {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+
+.main2 .conteudo p {
+    flex: 1; /* Garante que o parágrafo ocupe o espaço disponível */
+}
+
+.main2 .conteudo div {
+    flex-shrink: 0; /* Evita que a imagem encolha */
 }
 
 
